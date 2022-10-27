@@ -1,0 +1,16 @@
+id = b18b1bd1-4426-4dc5-a13c-a8cc1f629a99
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"21868609-e25eca9c-40eb-4cd1-8a4e-f198c08489ff","path":"CatFacts Mock.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"catfacts.json","metaData":{}}
+files[] = {"path":"catfacts2.json","metaData":{}}
+
+[relations.apiDefinition.metaData]
