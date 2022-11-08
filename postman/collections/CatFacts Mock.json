@@ -1,15 +1,15 @@
 {
 	"info": {
-		"_postman_id": "e25eca9c-40eb-4cd1-8a4e-f198c08489ff",
+		"_postman_id": "046bccf3-b5f0-4893-989e-7b436b5b1c74",
 		"name": "CatFacts Mock",
 		"description": "An API for facts about cats\n\nContact Support:\n Email: contact@catfact.ninja",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "21868609-e25eca9c-40eb-4cd1-8a4e-f198c08489ff"
+		"_uid": "896503-046bccf3-b5f0-4893-989e-7b436b5b1c74"
 	},
 	"item": [
 		{
 			"name": "Get a list of breeds",
-			"id": "57b84234-1efc-4d8b-8c94-ac1ecbe751fe",
+			"id": "de97e9c7-da47-4944-81ee-8de31cb65c05",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -41,7 +41,7 @@
 			},
 			"response": [
 				{
-					"id": "6afe22db-f7de-4651-a637-f635f731ffcc",
+					"id": "9dabb808-fa63-45b8-99dd-e50746d5ee86",
 					"name": "successful operation",
 					"originalRequest": {
 						"method": "GET",
@@ -65,6 +65,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -78,7 +79,7 @@
 		},
 		{
 			"name": "Get Random Fact",
-			"id": "c5ee57c4-8bcf-4644-94a3-2ef2164e9697",
+			"id": "9dfd1c97-93e8-4afd-b9c7-c6ae53ef14b7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -110,7 +111,7 @@
 			},
 			"response": [
 				{
-					"id": "41584882-9dac-4aea-9251-abf4ca89a928",
+					"id": "3f9cfac9-5013-4030-84b0-f239e2ee49ed",
 					"name": "successful operation",
 					"originalRequest": {
 						"method": "GET",
@@ -134,6 +135,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -144,7 +146,7 @@
 					"body": "{\n  \"fact\": \"laboris consectetur nostrud nulla\",\n  \"length\": -55387721\n}"
 				},
 				{
-					"id": "b18ac65c-66df-4080-be8b-f243f1779a7c",
+					"id": "c3f3e782-1dd8-45f7-ab50-35f723dcbc1b",
 					"name": "Fact not found",
 					"originalRequest": {
 						"method": "GET",
@@ -168,6 +170,7 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "text",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -181,7 +184,7 @@
 		},
 		{
 			"name": "Get a list of facts",
-			"id": "6e79aa97-4802-4c0c-9c08-dae30dea9bc4",
+			"id": "4e7dd83e-3e79-4d65-8bcf-af85f585281a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -218,7 +221,7 @@
 			},
 			"response": [
 				{
-					"id": "0e566d1a-b636-40a4-9bcb-2df70dd603c2",
+					"id": "6d8981ad-ea13-4b19-9315-3d7b15d03f0e",
 					"name": "successful operation",
 					"originalRequest": {
 						"method": "GET",
@@ -246,6 +249,7 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -262,7 +266,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6b55db35-42c4-48d7-8ef8-9e6fd99477e9",
+				"id": "863d5b84-0641-40ed-bc18-a881c56214b6",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -272,7 +276,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "3e326b62-2f52-43d8-bdb9-986df59c1573",
+				"id": "e00b5ce1-64bd-4d26-b730-dac97cfc4792",
 				"type": "text/javascript",
 				"exec": [
 					""
